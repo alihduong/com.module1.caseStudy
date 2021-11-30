@@ -1,0 +1,68 @@
+.hide {
+    display: none;
+}
+
+body{
+    background-image:url(image/background.jpg);
+    background-size: cover;
+}
+.car {
+    position: absolute;
+    bottom: 100px;
+    margin: auto;
+    width: 50px;
+    height: 100px;
+    background-color: white;
+    background-image: url(image/car2.png);
+    background-size: cover;
+    /*border-radius: 25%;*/
+}
+
+.enemy {
+    position: absolute;
+    bottom: 100px;
+    margin: auto;
+    width: 50px;
+    height: 100px;
+    background-color: blue;
+    background-image: url(image/car2.png);
+    background-size: cover;
+}
+.score{
+    background-color: black;
+    height: 70px;
+    text-align: center;
+    color: white;
+    font-size: 1.7em;
+    font-family: fantasy;
+}
+.line {
+    position: absolute;
+    height: 100px;
+    width: 10px;
+    margin-left: 195px;
+    background-color: white;
+}
+
+.gameArea {
+    background-color: black;
+    width: 400px;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    margin: auto;
+}
+.startScreen{
+    position: absolute;
+    background-color: red;
+    left: 25%;
+    top: 100px;
+    color: white;
+    z-index: 1;
+    text-align: center;
+    border: 1px solid red;
+    padding: 15px;
+    margin: auto;
+    width: 50%;
+    font-family: sans-serif;
+}
